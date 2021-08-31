@@ -1,5 +1,6 @@
 {
   "name": "center-v1",
+  "homepage": "http://center-yoga.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
