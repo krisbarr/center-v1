@@ -181,6 +181,19 @@ Primary use:
   color: #333;
   line-height: 1.2;
 }
+input {
+  margin-top: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 80px;
+  padding: 0 90px 0 35px;
+  background-color: #fff;
+  border: 1px solid black;
+}
 
 
 
@@ -269,6 +282,7 @@ Primary use:
 
 .logo {
   width: 100%;
+  margin-top: -30px;
 }
 
 
@@ -334,18 +348,18 @@ Primary use:
   background-color: #555555;
   color: #fff;
 }
-.btn-submit {
+button {
+  margin-top: 10px;
   height: 80px;
   width: 130px;
   background-color: black;
   color: #fff;
   display: inline;
   font-family: 'Work Sans', sans-serif;
-
 }
 
-.btn-submit:hover {
-  background-color: #FFE617;
+button:hover {
+  background-color: #fff;
   border: 1px solid #000;
   color: #000;
 }

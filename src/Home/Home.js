@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MailchimpForm from '../MailchimpForm/MailchimpForm.js'
 import salutation from '../images/salutation.jpg'
 import logo from '../images/centerYogaGradientHorizontal.png'
 import clouds from '../images/clouds.png'
@@ -17,17 +18,13 @@ class Home extends Component {
                   <div className="l1-txt1 p-b-34 respon3">
                   <img className="logo" src={logo} alt ="Center Yoga Logo"/>
                   </div>
-
                   <p className="m2-txt1 p-b-46">
                     COMING OCTOBER 2021
                   </p>
                   <p className="m2-txt2 p-b-46"> Subscribe to learn about new student rates and Founding Member packages. </p>
-                  <div className="input-group">
-                    <span className="wrap-input100 validate-input m-lr-auto-lg" data-validate = "Email is required: ex@abc.xyz">
-                      <input className="s2-txt1 placeholder0 input100 trans-04" type="text" name="email" placeholder="Email Address"/>
-                      </span>
-                    <button className="btn-submit" type="submit">Sign Up</button>
-                  </div>
+                  <span className="wrap-input100 validate-input m-lr-auto-lg">
+                  <MailchimpForm/>
+                  </span>
                 </div>
               </div>
               <div className="flex-w">
