@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MailchimpForm from '../MailchimpForm/MailchimpForm.js'
-import salutation from '../images/salutation.jpg'
+import legs from '../images/CYWeb2.jpg'
 import logo from '../images/centerYogaGradientHorizontal.png'
 import clouds from '../images/clouds.png'
 
@@ -18,6 +18,7 @@ class Home extends Component {
                   <div className="l1-txt1 p-b-34 respon3">
                   <img className="logo" src={logo} alt ="Center Yoga Logo"/>
                   </div>
+
                   <p className="m2-txt1 p-b-46">
                     COMING OCTOBER 2021
                   </p>
@@ -31,7 +32,7 @@ class Home extends Component {
                 <a href="https://www.instagram.com/centeryoga.nyc/"className="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
                   <i className="fa fa-instagram"></i>
                 </a>
-                <a href="https://www.instagram.com/centeryoga.nyc/"className="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
+                <a href="https://www.facebook.com/Center-Yoga-102888298813193"className="size3 flex-c-m how-social trans-04 m-r-15 m-b-10">
                   <i className="fa fa-facebook-square"></i>
                 </a>
                 <p className="m2-txt3 p-b-46"><i className="fa fa-copyright" aria-hidden="true"></i> 2021 Center Yoga | 110 E. 23rd St. NYC, NY 10010 </p>
@@ -40,7 +41,7 @@ class Home extends Component {
             </div>
             <div className="wsize1 simpleslide100-parent respon2">
               <div className="simpleslide100">
-                <div className="bg-img1"><img className="bg-img1" src={salutation} alt="salutation"/></div>
+                <div className="bg-img1"><img className="bg-img1" src={legs} alt="salutation"/></div>
                 <div className="simpleslide100-item bg-img1"></div>
                 <div className="simpleslide100-item bg-img1"></div>
               </div>
